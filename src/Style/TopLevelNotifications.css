@@ -1,0 +1,40 @@
+.notifications-bundle{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 250px;
+  position: absolute;
+}
+
+.top-level-notifications{
+  color: white;
+  border-radius: 10px;
+  position: relative;
+  transition: all 500ms ease-in-out;
+  height: 50px;
+  padding: 10px;
+}
+.top-level-notifications_warning{
+  background-color: #ffc107;
+}
+.top-level-notifications_informations{
+  background-color: #007BFF;
+}
+.top-level-notifications_danger{
+  background-color: #dc3545;
+}
+.top-level-notifications_primary{
+  background-color: #28a745;
+}
+
+.click-parent{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.click-div{
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+}
